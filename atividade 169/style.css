@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.ordemMain{
+    display: flex;
+    background-color: cadetblue;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+@media(max-width: 768px){
+.ordemMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+}
+.ordemMini{
+    padding: auto;
+}
+}
+
+@media(max-width: 390px){
+.ordemMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+}
